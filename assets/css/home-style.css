@@ -1,0 +1,239 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+	background-color: #7C90A0;
+}
+
+#backtotop {
+	position: fixed;
+	bottom: 10px;
+	right: 20px;
+	z-index: 1;
+	display: none;
+	color: #141414;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+#backtotop:hover {
+	color: #f2f2f2;
+	background-color: #4E5166;
+}
+
+/*navbar*/
+
+.navbar .collapse .left .nav-link {
+	color: #B9B7A7;
+	padding: 0 10px;
+}
+
+.navbar .collapse .left .nav-link:hover {
+	border: 1px solid #B9B7A7;
+}
+
+.navbar .collapse .right .nav-link {
+	color: #B9B7A7;
+	font-size: 1.2em;
+}
+
+.navbar .collapse .right .nav-link:hover {
+	color: #f2f2f2;
+}
+
+.navbar .navbar-collapse .left .nav-link {
+	color: #B9B7A7;
+	padding: 10px;
+}
+
+/*end of navbar*/
+
+
+/*about*/
+#two {
+	min-height: 100px;
+	color: #f2f2f2;
+}
+
+#two .container {
+	margin-top: 80px;
+	border: 5px solid #CFC8C0;
+	padding: 20px;
+}
+
+#two h3 {
+	text-shadow: grey 2px 2px;
+	color: #CFC8C0;
+}
+
+#two hr {
+	background-color: #CFC8C0;
+	height: 3px;
+}
+
+#two .container #about-text {
+	margin: auto;
+	color: #B9B7A7;
+}
+
+#two .about h4 {
+	letter-spacing: 1px;
+	color: #f2f2f2;
+}
+
+#two .about h5 {
+	letter-spacing: 1px;
+	color: #4E5166;
+}
+
+#two .about p {
+	letter-spacing: 1px;
+	color: #f2f2f2;
+	line-height: 20px;
+}
+
+/*end of about*/
+
+/*projects*/
+#three {
+	min-height: 100px;
+	color: #f2f2f2;
+}
+
+#three .projects {
+	margin-top: 80px;
+	border: 5px solid #CFC8C0;
+	padding: 20px;
+}
+
+#three h3 {
+	text-shadow: grey 2px 2px;
+	color: #CFC8C0;
+}
+
+#three hr {
+	background-color: #CFC8C0;
+	height: 3px;
+}
+
+#three a {
+	font-family: 'Condiment', cursive;
+	text-decoration: none;
+	color: #680505;
+	text-shadow: #f2f2f2 2px 1px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+#three a:hover {
+	text-decoration: none;
+	color: #680505;
+	text-shadow: #f2f2f2 2px 1px;
+	letter-spacing: 3px;
+}
+
+#three .card {
+	margin: 5px;
+	padding: 0;
+	border: none;
+	cursor: pointer;
+}
+
+#three [class*=col] {
+	padding: 0;
+}
+
+#three .modal {
+	color: #141414;
+}
+
+#three .modal .modal-dialog {
+	width: 1000px;
+}
+
+/*end of projects*/
+
+
+/*skills*/
+#four {
+	min-height: 100px;
+	color: #f2f2f2;
+}
+
+#four .skills {
+	margin-top: 80px;
+	border: 5px solid #CFC8C0;
+	padding: 20px;
+}
+
+#four h3 {
+	text-shadow: grey 2px 2px;
+	color: #CFC8C0;
+}
+
+#four hr {
+	background-color: #CFC8C0;
+	height: 3px;
+}
+
+
+
+/*end of skills*/
+
+
+
+/*section 5*/
+
+
+/*end of section 5*/
+
+
+
+
+/*section 6*/
+
+#six {
+	height: 25px;
+	background-color: #141414;
+	color: #f2f2f2;
+	text-align: center;
+	margin-top: 20px;
+}
+
+/*end of section 6*/
+
+
+@media only screen and (max-width: 450px) {
+	#two .about h4 {
+		font-size: 1.5em;
+	}
+
+	#two .about h5 {
+		font-size: 1.2em;
+	}
+
+	#two .about p {
+		font-size: .7em;
+	}
+}
+
+@media only screen and (min-width: 451px) and (max-width: 768px) {
+	#two .about h4 {
+		font-size: 1.5em;
+	}
+
+	#two .about h5 {
+		font-size: 1.2em;
+	}
+
+	#two .about p {
+		font-size: .8em;
+	}
+}
+
+
