@@ -265,6 +265,10 @@ body {
 
 #five .modal {
 	color: #4E5166;
+} 
+
+#five .modal .modal-body p {
+	color: #4E5166;
 }
 
 /*end of section 5*/
