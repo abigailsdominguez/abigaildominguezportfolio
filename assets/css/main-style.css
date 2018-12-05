@@ -181,6 +181,13 @@ body {
 	width: 1000px;
 }
 
+#three img {
+	box-shadow: 0 0 20px black;
+}
+
+#three img:hover {
+	transform: scale(1.01);
+}
 /*end of projects*/
 
 
@@ -206,13 +213,20 @@ body {
 	height: 3px;
 }
 
-#four .row {
-	padding-bottom: 20px;
+#four .progress .progress-bar {
+	/*background-color: #D5959B;*/
+	background-color: #DF9B6D;
+	color: #141414;
 }
 
-#four .progress .progress-bar {
-	background-color: #D5959B;
-	color: #141414;
+#four .progress {
+	margin-bottom: 25px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#four strong {
+	margin-left: 20px;
 }
 
 /*end of skills*/
@@ -285,6 +299,10 @@ body {
 	color: #CFC8C0;
 	letter-spacing: 20px;
 	font-size: 1.2em;
+}
+
+#six p {
+	color: white;
 }
 
 #six .link:hover {
