@@ -57,8 +57,8 @@ body {
 	}
 
 	.jumbotron h1 {
-	text-shadow: #747274 2px 2px;
-}
+		text-shadow: #747274 2px 2px;
+	}
 }
 
 @media only screen and (min-width: 451px) and (max-width: 768px) {

@@ -72,11 +72,12 @@ body {
 }
 
 #two img {
-	border-radius: 30px;
-	width: 80%;
+	border-radius: 100%;
+	width: 60%;
 	height: auto;
 	margin: auto;
 	display: block;
+	padding: 10px;
 }
 
 #two h3 {
@@ -92,6 +93,12 @@ body {
 #two .container #about-text {
 	margin: auto;
 	color: #B9B7A7;
+	padding-right: 20px;
+}
+
+#two .container #about-text button {
+	margin: 0 auto;
+	display: block;
 }
 
 #two .about h4 {
@@ -140,19 +147,19 @@ body {
 }
 
 #three a {
-	font-family: 'Condiment', cursive;
+	/*font-family: 'Condiment', cursive;*/
 	text-decoration: none;
-	color: #680505;
-	text-shadow: #f2f2f2 2px 1px;
+	color: #141414;
+	/*text-shadow: #f2f2f2 2px 1px;*/
 	letter-spacing: 2px;
 	text-align: center;
 }
 
 #three a:hover {
 	text-decoration: none;
-	color: #680505;
-	text-shadow: #f2f2f2 2px 1px;
-	letter-spacing: 3px;
+	color: #f2f2f2;
+	/*text-shadow: #f2f2f2 2px 1px;*/
+	letter-spacing: 2px;
 }
 
 #three .card {
@@ -363,8 +370,11 @@ body {
 	}
 
 	#two img {
+		width: 70%;
+		height: auto;
 		margin: auto;
 		display: block;
+		padding: 10px;
 	}
 
 	#two .about h5 {
